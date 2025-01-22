@@ -1,0 +1,21 @@
+{
+  "heading": "HOW TO BUY",
+  "description": "Follow these easy steps to become a <span style='color: var(--primary); font-weight: bold;'>'CRAZY CANNONBALL'</span> holder!",
+  "firstStep": {
+    "title": "1. CREATE A WALLET",
+    "description": "Visit PANTOM.APP and follow the simple steps to create a new account with the phantom app or browser extension."
+  },
+  "secondStep": {
+    "title": "2. GET SOME SOL",
+    "description": "To buy a <span style='color: var(--primary); font-weight: bold;'>CRAZY CANNONBALL NFT</span>, you need SOL in your wallet. Purchase SOL on Coinbase, transfer from another, or buy on another exchange and send it to your wallet."
+  },
+  "thirdStep": {
+    "title": "3. SWAP SOL FOR A CRAZY CANNONBALL",
+    "description": "Tap the icon in your Phantom Wallet and paste the Crazy Cannonball token address. Swap your SOL for a <span style='color: var(--primary); font-weight: bold;'>CRAZY CANNONBALL NFT.</span>"
+  },
+  "fourthStep": {
+    "title": "4. YOU ARE NOW A CRAZY CANNONBALL HOLDER!",
+    "description": "Congratulations! You are now the proud owner of a <span style='color: var(--primary); font-weight: bold;'>CRAZY CANNONBALL NFT.</span> <span>Welcome to the club!</span>"
+  },
+  "startTitle": "GET STARTED HERE"
+}

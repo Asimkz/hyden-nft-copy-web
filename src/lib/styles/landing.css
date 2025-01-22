@@ -1,0 +1,69 @@
+.landing-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.landing-container {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.landing-container .branch {
+    position: absolute;
+    top: -5.5vw;
+    width: 100vw;
+}
+
+.landing-container .character {
+    position: absolute;
+    top: 4vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 31vw;
+}
+
+.landing-container .snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.landing-container .lights {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.landing-container .star-1 {
+    position: absolute;
+    width: 4vw;
+    top: 37vw;
+    left: 8vw;
+}
+.landing-container .star-2 {
+    position: absolute;
+    width: 4vw;
+    top: 23vw;
+    left: 26vw;
+}
+.landing-container .star-3 {
+    position: absolute;
+    width: 4vw;
+    top: 23vw;
+    left: 70.5vw;
+}
+.landing-container .star-4 {
+    position: absolute;
+    width: 4vw;
+    top: 36vw;
+    left: 89vw;
+}

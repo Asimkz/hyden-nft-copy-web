@@ -1,0 +1,25 @@
+{
+  "heading": "GALLERY",
+  "description": "Each `Crazy Cannonball' NFT is randomised and unique once purchased. Here are just come of the CRAZY variations that make up are unique characters!",
+  "firststep": {
+    "title": "COMMON",
+    "image": "/assets/img/category-character.png"
+  },
+  "secondstep": {
+    "title": "UNCOMMON",
+    "image": "/assets/img/category-character.png"
+  },
+  "thirdstep": {
+    "title": "RARE",
+    "image": "/assets/img/category-character.png"
+  },
+  "fourthstep": {
+    "title": "LEGENDARY",
+    "image": "/assets/img/category-character.png"
+  },
+  "fivethstep": {
+    "title": "MYTHIC",
+    "image": "/assets/img/category-character.png"
+  },
+  "startTitle": "GET STARTED HERE"
+}

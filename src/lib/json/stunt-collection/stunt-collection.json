@@ -1,0 +1,62 @@
+{
+  "heading": "STUNT COLLECTION",
+  "description": "Our currated 'Stunt Collection' is all about showing off the insane advertures our Crazy Cannonballs get up to!",
+  "slider": [
+    {
+      "img": "/assets/img/slidercharacter.png",
+      "nftName": "'Forgotten Temple 1'",
+      "nftDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris diam, consequat ut facilisis vitae, scelerisque volutpat arcu. Proin odio libero, feugiat a tellus porta, egestas bibendum mauris."
+    },
+    {
+      "img": "/assets/img/slidercharacter.png",
+      "nftName": "'Forgotten Temple 2'",
+      "nftDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris diam, consequat ut facilisis vitae, scelerisque volutpat arcu. Proin odio libero, feugiat a tellus porta, egestas bibendum mauris."
+    },
+    {
+      "img": "/assets/img/slidercharacter.png",
+      "nftName": "'Forgotten Temple 3'",
+      "nftDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris diam, consequat ut facilisis vitae, scelerisque volutpat arcu. Proin odio libero, feugiat a tellus porta, egestas bibendum mauris."
+    },
+    {
+      "img": "/assets/img/slidercharacter.png",
+      "nftName": "'Forgotten Temple 4'",
+      "nftDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris diam, consequat ut facilisis vitae, scelerisque volutpat arcu. Proin odio libero, feugiat a tellus porta, egestas bibendum mauris."
+    },
+    {
+      "img": "/assets/img/slidercharacter.png",
+      "nftName": "'Forgotten Temple 5'",
+      "nftDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris diam, consequat ut facilisis vitae, scelerisque volutpat arcu. Proin odio libero, feugiat a tellus porta, egestas bibendum mauris."
+    },
+    {
+      "img": "/assets/img/slidercharacter.png",
+      "nftName": "'Forgotten Temple 6'",
+      "nftDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris diam, consequat ut facilisis vitae, scelerisque volutpat arcu. Proin odio libero, feugiat a tellus porta, egestas bibendum mauris."
+    },
+    {
+      "img": "/assets/img/slidercharacter.png",
+      "nftName": "'Forgotten Temple 7'",
+      "nftDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris diam, consequat ut facilisis vitae, scelerisque volutpat arcu. Proin odio libero, feugiat a tellus porta, egestas bibendum mauris."
+    },
+    {
+      "img": "/assets/img/slidercharacter.png",
+      "nftName": "'Forgotten Temple 8'",
+      "nftDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris diam, consequat ut facilisis vitae, scelerisque volutpat arcu. Proin odio libero, feugiat a tellus porta, egestas bibendum mauris."
+    }
+  ],
+  "createTitle": "Want to create your own?",
+  "createDescOne": "Want to create your own CRAZY CANNONBALL going on a crazy adventure, doing their own unique stunt? Well you can!",
+  "createDescTwo": "We’ve compiled a list below of some suggestions that we would love to do, but would absolutely love to hear your suggestions also! Just let us know on our social media platforms what you would like to see.",
+  "suggestionTitle": "Here are some of our suggestions:",
+  "suggestions": [
+    "Walking on fire through a fiery pit.",
+    "Base jumping off the edge of a cliff.",
+    "Surfing a giant wave.",
+    "Swinging from vine in a jungle.",
+    "Rock climbing in the Grand Canyon.",
+    "Jousting with a knight.",
+    "Escaping a volcano eruption.",
+    "Stealing treasure from a dragon.",
+    "Fighting a dragon.",
+    "Riding a carousel at a theme park."
+  ]
+}

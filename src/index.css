@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Roboto:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Color System */
+  --primary: #ff8b00;
+  --primary-light: #ffa533;
+  --primary-dark: #cc6f00;
+  --secondary: #2b2b2b;
+  --accent: #4caf50;
+
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #ff8b00;
+  --text-default: #ff8b00;
+  --text-dark: #cc6f00;
+
+  /* Background Colors */
+  --bg-primary: #000000;
+  --bg-secondary: #1a1a1a;
+
+  color-scheme: light dark;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+
+  /* Box Sizing */
+  box-sizing: border-box;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.swiper-wrapper {
+  align-items: center;
+  height: 400px;
+}
+
+.slider-wrapper .swiper-slide {
+  height: 300px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-wrapper .swiper-slide-active {
+  height: 360px;
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.slider-wrapper .slide-content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.slider-wrapper .swiper-slide:not(.swiper-slide-active) {
+  opacity: 0.7;
+  transform: scale(0.945);
+  z-index: 1;
+}
+
+.swiper {
+  width: 100%;
+  height: 450px;
+  margin-top: -42px;
+}
+
+.swiper-slide {
+  opacity: 0.6;
+  transform: scale(0.8);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.slide-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #111;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  width: 100%;
+}
+
+.center-slide-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.swiper-pagination-bullet {
+  background: #666;
+  opacity: 0.7;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.swiper-pagination-bullet-active {
+  background: orange;
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: #ff8b00;
+}
+
+.order-list {
+  @apply list-disc text-[var(--text-dark)] flex flex-col gap-4;
+}
+
+.order-list li {
+  @apply text-[17px] font-semibold font-robotoSlab;
+}
+
+.h1-heading {
+  @apply sm:text-[56px] text-[45px] text-white font-semibold font-alfa;
+}
+
+.border-bottom {
+  @apply w-20 border-[2px] border-white mx-auto mt-1;
+}
+
+.border-bottom-second {
+  @apply w-[5rem] mb-3 border-[2px] border-white mt-2;
+}
+
+.howBuy-description {
+  @apply text-[14px] text-[#fff] font-robotoSlab mt-4;
+}
+
+.steps-title {
+  @apply text-[25px] font-robotoSlab font-medium text-[var(--primary)];
+}
+
+.steps-description {
+  @apply text-[12px] w-[45%] text-center font-robotoSlab font-light text-[#fff];
+}
+
+.start-title {
+  @apply text-[18px] text-center font-robotoSlab font-semibold text-[#fff];
+}
+.gallery-card {
+  @apply sm:flex flex-wrap mt-5 justify-center gap-5;
+}
+.gallery-card-text {
+  @apply sm:py-28 py-36 sm:mt-0 mt-5 sm:w-72 w-80 border-[1px] bg-cover text-[22px] text-center font-robotoSlab font-semibold;
+}
+.gallery-card-text:hover {
+  @apply sm:py-28 py-36 sm:mt-0 mt-5 sm:w-72 w-80 border-[1px] border-[#FF8B00] bg-cover text-[22px] text-[#FF8B00] text-center font-robotoSlab font-semibold;
+}
+
+.gallery-card-img {
+  @apply py-4 sm:mt-0 mt-5 md:w-[31%] w-80 border-[1px] bg-cover text-[22px] text-center font-robotoSlab font-semibold transition-transform duration-300 ease-in-out bg-white;
+}
+.gallery-card-img:hover {
+  @apply -translate-y-2 scale-105; /* Moves the card up and increases width/height slightly */
+}
+
+.arrow-Down {
+  @apply my-4;
+}
+
+.buyButton {
+  @apply text-[#fff] bg-[var(--primary)] text-[38px] font-alfa rounded-[28px] px-7 pt-1;
+}
+
+.Heading {
+  @apply text-[#fff] bg-[#FF8B00] sm:text-[20px] text-[17px] font-alfa rounded-[28px] px-7 pt-1;
+}
+
+.stunt-description {
+  @apply text-[14px] text-[#fff] font-robotoSlab my-6 w-[75%] text-center;
+}
+
+.sidebar-link {
+  @apply text-[28px] text-[var(--text-primary)] font-alfa font-semibold;
+}
+
+.sidebar-link:hover {
+  @apply text-[var(--text-default)];
+}
+
+.sidebar-nft-link {
+  @apply text-[28px] text-[var(--text-default)] font-alfa font-semibold;
+}
+
+.sidebar-nft-link:hover {
+  @apply opacity-[0.7] text-[var(--text-default)];
+}
+
+.footer-main {
+  @apply flex gap-3 w-[90%] mx-auto mt-10;
+}
+
+.footer-icons {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+.slide-title {
+  @apply text-[18px] font-medium font-robotoSlab;
+}
+
+.bg-color {
+  /* background-image: url(./assets/img/bg-img-home.png); */
+  /* background-size: cover; */
+}
+
+svg {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.mainContainer {
+  width: 70%;
+  margin: 15px auto;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  h1 {
+    color: #747bff;
+  }
+}
+
+/* 
+Methods to use colors
+
+.my-button {
+  background-color: var(--primary);
+  color: var(--text-primary);
+}
+
+<div className="bg-[var(--primary)] text-[var(--text-primary)]">
+  Content here
+</div>
+
+*/

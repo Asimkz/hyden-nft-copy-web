@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "name": "OUR STORY",
+      "path": "/our-story"
+    },
+    {
+      "name": "COMMUNITY",
+      "path": ""
+    },
+    {
+      "name": "GALLERY",
+      "path": "/gallery"
+    },
+    {
+      "name": "STUNT COLLECTION",
+      "path": "/stunt-collection"
+    },
+    {
+      "name": "ROAD MAP",
+      "path": "/roadmap"
+    },
+    {
+      "name": "BUY NFT",
+      "path": "/how-to-buy"
+    }
+  ]
+}

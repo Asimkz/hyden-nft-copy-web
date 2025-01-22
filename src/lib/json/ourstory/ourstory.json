@@ -1,0 +1,25 @@
+{
+  "heading": "OUR STORY",
+  "description": " “Celebrating Imagination, Community, and the Human Touch in NFTs” ",
+  "firstbgimg": "/assets/img/bg-img.jpg",
+  "firststep": {
+    "description": "As someone who has been exploring the world of cryptocurrency and NFTs for some time, I've always been captivated by the incredible creativity and innovation within this space. Many projects and artworks I encountered were nothing short of amazing, showcasing the limitless possibilities of human imagination.",
+    "descriptionsec": "However, as the NFT space grew, it began to feel crowded. With countless new creators jumping on the bandwagon, much of what was being produced seemed rushed, lacking purpose, or simply a product of AI with no real human touch.",
+    "image": "/assets/img/NFTS.png"
+  },
+  "secondbgimg": "/assets/img/bg-2.PNG",
+  "secondstep": {
+    "description": "The most inspiring NFT projects I found came from human hands—works that carried the weight of imagination, effort, and a personal story. Even when created digitally, the essence of human creativity stood out. This belief became the foundation for my own idea: to create something unique, imaginative, and fun—something that could grow with the input of a vibrant community.",
+    "descriptionsec": "The concept for Crazy Cannonballs was born from this vision. It began as a playful idea: a cannonball performing outrageous stunts. The imagery quickly grew in my mind, evolving into Aztec warriors leaping across rivers of piranhas or lava. It was bold, wild, and exactly the kind of creativity I wanted to bring to life.",
+    "image": "/assets/img/NFTS-figther-2.png"
+  },
+  "thirdstep": {
+    "description": "In the early stages, I used AI tools and ChatGPT to help refine the vision. AI was instrumental in generating initial ideas and designs, but I quickly realized something was missing. While AI-created images were beautiful, they lacked the depth and authenticity of art crafted by human hands.",
+    "descriptionsec": "To bring my dreams to life, I partnered with a professional artist, collaborating tirelessly over many late nights, refining drafts, and shaping every detail until both the character and the project felt just right.",
+    "descriptionthird": "Now, Crazy Cannonballs stands as a celebration of imagination and community. We're starting with a collection of 10,000 NFT-generated images, but the ultimate goal is to create one-of-a-kind, handcrafted pieces. This project is not just about my ideas—it's about yours, too. Together, we can push the boundaries of creativity and decide the next stage for Crazy Cannonballs.",
+    "image": "/assets/img/NFTS-figther.png"
+  },
+  "lasttittle": "Join me on this journey. Let's see where this adventure takes us.",
+
+  "startTitle": "GET STARTED HERE"
+}
